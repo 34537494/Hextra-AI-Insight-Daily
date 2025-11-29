@@ -1,5 +1,6 @@
 # Hugo configuration file
 title: 何夕2077的AI资讯日报 | 精选AI新闻与工具 | 洞悉AI前沿动态
+baseURL: https://34537494.github.io/Hextra-AI-Insight-Daily/
 
 timezone: Asia/Shanghai
 enableRobotsTXT: true
