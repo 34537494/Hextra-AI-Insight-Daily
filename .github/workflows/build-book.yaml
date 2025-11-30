@@ -197,8 +197,8 @@ jobs:
               (
                 printf -- "---\nlinkTitle: %s-%s-日报\ntitle: %s-%s-日报-AI资讯日报\nweight: %d\nbreadcrumbs: false\ncomments: true\ndescription: \"%s\"\n---\n\n" \
                   "$MONTH" "$DAY" "$MONTH" "$DAY" "$weight" "$local_description"
-                # 过滤掉"写在最后"部分：删除包含"写在最后"的行及其之后的所有内容，同时删除该部分前面的 --- 分隔符
-                sed '/写在最后/Q' "$source_file" | sed -z 's/\n\n*---\n*$/\n\n/'
+                # 过滤掉"写在最后"和"AI资讯日报语音版"部分：删除包含这些关键词的行及其之后的所有内容，同时删除该部分前面的 --- 分隔符
+                sed '/写在最后\|AI资讯日报语音版/Q' "$source_file" | sed -z 's/\n\n*---\n*$/\n\n/'
               ) > "$TARGET_FILE"
               echo "已归档到 $TARGET_FILE (或已更新)"
             done
@@ -270,8 +270,8 @@ jobs:
           FRONTMATTER+="cascade:\n  type: docs\n---\n\n"
 
           printf "%b" "$FRONTMATTER" > "$TARGET_INDEX"
-          # 过滤掉"写在最后"部分：删除包含"写在最后"的行及其之后的所有内容，同时删除该部分前面的 --- 分隔符
-          sed '/写在最后/Q' "$LATEST_NOTE" | sed -z 's/\n\n*---\n*$/\n\n/' >> "$TARGET_INDEX"
+          # 过滤掉"写在最后"和"AI资讯日报语音版"部分：删除包含这些关键词的行及其之后的所有内容，同时删除该部分前面的 --- 分隔符
+          sed '/写在最后\|AI资讯日报语音版/Q' "$LATEST_NOTE" | sed -z 's/\n\n*---\n*$/\n\n/' >> "$TARGET_INDEX"
           echo "$TARGET_INDEX 更新完成。"
 
       # 第4步：提交 content 目录下的所有修改

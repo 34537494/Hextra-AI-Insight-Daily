@@ -56,17 +56,3 @@ Lovable AI全面集成谷歌Gemini 3 Pro模型，并新增了图像生成功能�
 
 4.  来自一线人工客服的真实吐槽，生动揭示了当前AI客服的窘境：它们常常因为"听不懂人话”，把原本只是有点小情绪的客户，硬生生聊成了暴跳如雷的"敌人” 🔥。这个来自[社交媒体的吐槽（AI资讯）](https://x.com/dotey/status/1994557256340484223)让人哭笑不得，也说明AI在理解和共情人类复杂情感方面还有很长的路要走。看来，AI客服的"情商”升级包还没发布呢 😂。<br/>![AI资讯：AI客服让客户暴怒](https://source.hubtoday.app/images/2025/11/news_01kb834bm9fprt1cn65f7ryc1v.avif)
 
-
-
-
----
-
-## **AI资讯日报语音版**
-
-| 🎙️ **小宇宙** | 📹 **抖音** |
-| --- | --- |
-| [来生小酒馆](https://www.xiaoyuzhoufm.com/podcast/683c62b7c1ca9cf575a5030e)  |   [自媒体账号](https://www.douyin.com/user/MS4wLjABAAAAwpwqPQlu38sO38VyWgw9ZjDEnN4bMR5j8x111UxpseHR9DpB6-CveI5KRXOWuFwG)|
-| ![小酒馆](https://source.hubtoday.app/logo/f959f7984e9163fc50d3941d79a7f262.md.png) | ![情报站](https://source.hubtoday.app/logo/7fc30805eeb831e1e2baa3a240683ca3.md.png) |
-
-
-
